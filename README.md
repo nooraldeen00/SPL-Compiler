@@ -111,27 +111,27 @@ mvn clean install
 
 # Run Compiler Stages
 
-Scanner
+## Scanner
    
    scala lib/spl.jar 1 tests/hello.spl
 
-Parser
+## Parser
    
    scala lib/spl.jar 2 tests/hello.spl
    
-AST
+## AST
    
    scala lib/spl.jar 3 tests/hello.spl
 
-Type Checking
+## Type Checking
    
    scala lib/spl.jar 4 tests/hello.spl
 
-IR
+## IR
    
    scala lib/spl.jar 5 tests/hello.spl
 
-MIPS Code Generation
+## MIPS Code Generation
 
    scala lib/spl.jar 6 tests/hello.spl -o hello.s
 
